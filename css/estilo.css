@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0%; }
+
+.fondo-header {
+  background: url("../img/bg.jpg");
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  height: 500px; }
+  .fondo-header .nav:hover {
+    text-decoration: underline;
+    color: #000; }
+  .fondo-header .color-nav {
+    margin-top: -30px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    background: none; }
+  .fondo-header .linea {
+    margin-top: -110px; }
+    .fondo-header .linea hr {
+      color: white; }
+  .fondo-header .subtitulo {
+    text-align: center; }
+  .fondo-header .botones-header a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    border: 2px solid #fff;
+    padding: 8px 30px;
+    border-radius: 3px;
+    margin-left: 10px; }
+    .fondo-header .botones-header a:hover {
+      background: white;
+      color: #000; }
+  .fondo-header .encabezado {
+    text-align: center; }
+
+.precios {
+  background: url("../img/precios-bg.jpg");
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat; }
+  .precios .contendor {
+    opacity: .8;
+    border-radius: 3px; }
+  .precios .especificaciones-basico {
+    border-bottom: 1px solid rgba(136, 136, 136, 0.63);
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif; }
+  .precios .especificaciones-standard {
+    color: white;
+    border-bottom: 1px solid rgba(255, 252, 252, 0.952);
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif; }
+  .precios .especificaciones-premiun {
+    border-bottom: 1px solid rgba(136, 136, 136, 0.63);
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif; }
+  .precios .btn-basico {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: 1px solid rgba(48, 168, 11, 0.678);
+    color: rgba(48, 168, 11, 0.678);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif; }
+  .precios .btn-standard {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: 1px solid rgba(248, 252, 247, 0.897);
+    color: rgba(248, 252, 247, 0.897);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif; }
+  .precios .btn-premiun {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: 1px solid rgba(204, 159, 12, 0.678);
+    color: rgba(204, 159, 12, 0.678);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif; }
+
+/*# sourceMappingURL=estilo.css.map */
